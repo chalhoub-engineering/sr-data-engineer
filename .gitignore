@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# Local configuration and data
+.env
+data/
+*.log
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
